@@ -1,0 +1,40 @@
+.departure,
+.arrival {
+  text-decoration: line-through;
+  color: red;
+}
+
+.hide {
+  display: none;
+}
+
+.cancelled {
+  background-color: red;
+  color: white;
+
+  a {
+    color: white;
+  }
+}
+
+.departed {
+  background-color: lightgreen;
+}
+
+.likelyToBeCancelled {
+  background-color: #FF8273;
+}
+
+.delayed {
+  background-color: cyan;
+}
+
+.scheduled {
+  background-color: cyan;
+}
+
+td {
+  text-align: center;
+  font-weight: bold;
+  font-size: small;
+}

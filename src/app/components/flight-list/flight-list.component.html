@@ -1,0 +1,84 @@
+<div class="filter-container" [ngStyle]="{'background-image': 'url(' + bgImage + ')'}">
+  <h1 (click)="toggleImage()">EM AIRLINES FLIGHT STATUS</h1>
+
+  <br><br>
+
+  <div class="selectDiv">
+
+    <span class="selectSpans">
+      <label for="from">Departure airport:</label>
+      <div>
+        <select id="from" class="select" [(ngModel)]="selectedDepartureAirport">
+          <option *ngFor="let airport of airports; let i = index"
+            [selected]="selectedDepartureAirport === airport.airportCode" [value]="airport.airportCode">{{airport.city +
+            '
+            '
+            +
+            airport.airportCode}}</option>
+        </select>
+        <button class="swapBtn" (click)="swapAirports()"><img src="{{swapImageSrc}}" width='20px'
+            height="20px" /></button>
+      </div>
+    </span>
+
+
+
+    <span>
+      <label for="to">Arrival airport:</label>
+      <div>
+        <select id="to" class="select" [(ngModel)]="selectedArrivalAirport">
+          <option *ngFor="let airport of airports; let i = index"
+            [selected]="selectedArrivalAirport === airport.airportCode" [value]="airport.airportCode">{{airport.city + '
+            '
+            + airport.airportCode}}</option>
+        </select>
+      </div>
+    </span>
+
+  </div>
+  <br>
+  <br>
+
+  <button (click)="fetchData()" id="fetchBtn" class="button-82-pushable" role="button"><span class="button-82-shadow"></span><span
+      class="button-82-edge"></span><span class="button-82-front text">Fetch flights </span></button>
+  <br>
+  <br>
+  <br>
+
+  <div class="custom-control custom-radio">
+    <input id="all" type="radio" class="custom-control-input" value="ALL" name="filter"
+      [checked]="filterSelected === 'ALL'" (click)="onFilterOptionSelect($event)">
+    <label class="custom-control-label" for="all">All flights</label>
+  </div>
+  <div class="custom-control custom-radio">
+    <input id="scheduled" type="radio" class="custom-control-input" value="S" name="filter"
+      [checked]="filterSelected === 'S'" (click)="onFilterOptionSelect($event)">
+    <label class=" custom-control-label" for="scheduled">Scheduled</label>
+  </div>
+  <div class="custom-control custom-radio">
+    <input id="cancelled" type="radio" class="custom-control-input" value="C" name="filter"
+      [checked]="filterSelected === 'C'" (click)="onFilterOptionSelect($event)">
+    <label class=" custom-control-label" for="cancelled">Cancelled</label>
+  </div>
+  <div class="custom-control custom-radio">
+    <input id="departed" type="radio" class="custom-control-input" value="L" name="filter"
+      [checked]="filterSelected === 'L'" (click)="onFilterOptionSelect($event)">
+    <label class=" custom-control-label" for="departed">Departed</label>
+  </div>
+</div>
+
+
+
+<table *ngIf="tableVisible" id="main-content">
+  <thead>
+    <th>Date</th>
+    <th>Flight</th>
+    <th>Status</th>
+    <th>Departs</th>
+    <th>Arrives</th>
+    <th>Operator</th>
+  </thead>
+  <tbody row *ngFor="let date of dateStrings" [date]=date [selectedDepartureAirport]="selectedDepartureAirport"
+    [selectedArrivalAirport]="selectedArrivalAirport" [option]="filterSelected">
+  </tbody>
+</table>

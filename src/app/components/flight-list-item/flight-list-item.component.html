@@ -1,0 +1,58 @@
+<ng-container *ngIf="date && date.length>0 && !!flightStatus">
+  <tr *ngFor="let fs of flightStatus" [ngClass]="{'hide': fs.status !== option && option != 'ALL'}">
+    <td *ngIf="!isToday" class="date" [ngClass]="{'departed' : fs.status === 'L' || fs.status === 'A',
+        'scheduled' : fs.status === 'S' && fs.statusInfo === 'SCHEDULED',
+        'likelyToBeCancelled' : fs.status === 'S' && fs.statusInfo === 'affected',
+        'delayed' : fs.status === 'S' && fs.statusInfo === 'Delayed',
+        'cancelled': fs.status === 'C'}">{{date.substring(8,10) + (date.substring(5,7) === '07' ? ' Jul' : '
+      Aug')}}{{classCSS}}</td>
+    <td *ngIf="isToday" [ngClass]="{'departed' : fs.status === 'L' || fs.status === 'A',
+        'scheduled' : fs.status === 'S' && fs.statusInfo === 'SCHEDULED',
+        'likelyToBeCancelled' : fs.status === 'S' && fs.statusInfo === 'affected',
+        'delayed' : fs.status === 'S' && fs.statusInfo === 'Delayed',
+        'cancelled': fs.status === 'C'}">Today</td>
+
+    <td [ngClass]="{'departed' : fs.status === 'L' || fs.status === 'A',
+        'scheduled' : fs.status === 'S' && fs.statusInfo === 'SCHEDULED',
+        'likelyToBeCancelled' : fs.status === 'S' && fs.statusInfo === 'affected',
+        'delayed' : fs.status === 'S' && fs.statusInfo === 'Delayed',
+        'cancelled': fs.status === 'C'}">
+      {{fs.flightId}}
+    </td>
+
+    <td [ngClass]="{'departed' : fs.status === 'L' || fs.status === 'A',
+                      'scheduled' : fs.status === 'S' && fs.statusInfo === 'SCHEDULED',
+                      'likelyToBeCancelled' : fs.status === 'S' && fs.statusInfo === 'affected',
+                      'delayed' : fs.status === 'S' && fs.statusInfo === 'Delayed',
+                      'cancelled': fs.status === 'C'}">
+      {{(fs.status === 'L' || fs.status === 'A') ? 'Departed' : fs.status !== 'S' ? 'Cancelled': fs.statusInfo ===
+      'SCHEDULED' ? 'Scheduled' : fs.statusInfo === 'affected' ? 'Likely To Be Cancelled' : 'Delayed'}}</td>
+
+    <td [ngClass]="{'departed' : fs.status === 'L' || fs.status === 'A',
+      'scheduled' : fs.status === 'S' && fs.statusInfo === 'SCHEDULED',
+      'likelyToBeCancelled' : fs.status === 'S' && fs.statusInfo === 'affected',
+      'delayed' : fs.status === 'S' && fs.statusInfo === 'Delayed',
+      'cancelled': fs.status === 'C'}">
+      <label class="departure"
+        *ngIf="(fs.publishedDepartureTime !== fs.actualDepartureTime && !!fs.actualDepartureTime) || !!fs.delayedTime">
+        {{fs.publishedDepartureTime}}
+      </label>
+      {{fs.delayedTime || fs.actualDepartureTime || fs.publishedDepartureTime}}
+    </td>
+    <td [ngClass]="{'departed' : fs.status === 'L' || fs.status === 'A',
+      'scheduled' : fs.status === 'S' && fs.statusInfo === 'SCHEDULED',
+      'likelyToBeCancelled' : fs.status === 'S' && fs.statusInfo === 'affected',
+      'delayed' : fs.status === 'S' && fs.statusInfo === 'Delayed',
+      'cancelled': fs.status === 'C'}">
+      <label class="arrival" *ngIf="fs.publishedArrivalTime !== fs.actualArrivalTime && !!fs.actualArrivalTime">
+        {{fs.publishedArrivalTime}}
+      </label>
+      {{fs.actualArrivalTime || fs.publishedArrivalTime}}
+    </td>
+    <td [ngClass]="{'departed' : fs.status === 'L' || fs.status === 'A',
+      'scheduled' : fs.status === 'S' && fs.statusInfo === 'SCHEDULED',
+      'likelyToBeCancelled' : fs.status === 'S' && fs.statusInfo === 'affected',
+      'delayed' : fs.status === 'S' && fs.statusInfo === 'Delayed',
+      'cancelled': fs.status === 'C'}">{{fs.operatedBy}}</td>
+  </tr>
+</ng-container>

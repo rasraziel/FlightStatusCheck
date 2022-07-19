@@ -1,0 +1,228 @@
+
+body {
+  overflow: hidden;
+}
+
+h1{
+  cursor: pointer;
+}
+
+.filter-container {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: auto;
+  width: auto;
+  filter: drop-shadow(0 0 15px red);
+}
+
+.departure,
+.arrival {
+  text-decoration: line-through;
+}
+
+label {
+  font-size: larger;
+  font-weight: bold;
+  color: black;
+}
+
+option, select {
+  font-weight: bold;
+}
+
+.cancelled {
+  background-color: red;
+  color: white;
+}
+
+.departed {
+  background-color: lightgreen;
+}
+
+.scheduled {
+  background-color: cyan;
+}
+
+.date {
+  font-weight: bold;
+}
+
+
+table {
+  border: 5px solid grey;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  table {
+    width: auto;
+
+    td {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      word-wrap: break-word;
+    }
+  }
+
+
+}
+
+
+.swapBtn {
+  margin-left: 0.5rem;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+$glass: rgba(255, 255, 255, 0.2);
+$glass-icon: rgba(255, 255, 255, 0.3);
+$gradient: linear-gradient(35deg, red, purple);
+$option: white;
+
+body {
+  background: $gradient;
+}
+
+.selectSpans {
+  margin-right: 0.5rem;
+}
+
+.selectDivParent {
+  display: flex;
+}
+
+.button-82-pushable {
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-82-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition:
+    transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+
+.button-82-edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(to left,
+      hsl(340deg 100% 16%) 0%,
+      hsl(340deg 100% 32%) 8%,
+      hsl(340deg 100% 32%) 92%,
+      hsl(340deg 100% 16%) 100%);
+}
+
+.button-82-front {
+  display: block;
+  position: relative;
+  padding: 12px 27px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  color: white;
+  background: hsl(345deg 100% 47%);
+  will-change: transform;
+  transform: translateY(-4px);
+  transition:
+    transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+
+@media (min-width: 768px) {
+  .button-82-front {
+    font-size: 1.25rem;
+    padding: 12px 42px;
+  }
+}
+
+.button-82-pushable:hover {
+  filter: brightness(110%);
+  -webkit-filter: brightness(110%);
+}
+
+.button-82-pushable:hover .button-82-front {
+  transform: translateY(-6px);
+  transition:
+    transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+
+.button-82-pushable:hover .button-82-shadow {
+  transform: translateY(4px);
+  transition:
+    transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+
+.button-82-pushable:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.selectDiv {
+  display: flex;
+  justify-content: flex-start;
+  background-color: transparent;
+  filter: drop-shadow(0 0 0 red)!important;
+}
+
+/* <select> styles */
+select {
+  /* Reset */
+  appearance: none;
+  border: 0;
+  outline: 0;
+  // font: inherit;
+  /* Personalize */
+  width: 10em;
+  height: 4em;
+  padding: 0 0 0 1em;
+  // background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg) no-repeat right 0.8em center / 1.4em,
+  //   linear-gradient(to left, $glass-icon 3em, $glass 3em);
+  color: black;
+  border-radius: 0.25em;
+  box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+
+  /* <option> colors */
+  option {
+    color: inherit;
+    background-color: $option;
+  }
+
+  /* Remove focus outline */
+  &:focus {
+    outline: none;
+  }
+
+  /* Remove IE arrow */
+  &::-ms-expand {
+    display: none;
+  }
+}
