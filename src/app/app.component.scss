@@ -1,0 +1,22 @@
+
+.darkMode{
+  background-color: black;
+  ::ng-deep .filter-container{
+    color: aliceblue!important;
+  }
+  ::ng-deep thead{
+    color: aliceblue!important;
+  }
+
+}
+
+:host {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  // padding-left: 1rem;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

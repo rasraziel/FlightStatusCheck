@@ -1,5 +1,5 @@
 import { StatusType } from './../../types/StatusType';
-import { ChangeDetectorRef, Component, Input, OnInit } from '@angular/core';
+import { ChangeDetectorRef, Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-flight-list',
@@ -7,6 +7,8 @@ import { ChangeDetectorRef, Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./flight-list.component.scss']
 })
 export class FlightListComponent implements OnInit {
+
+  @Output() mode = new EventEmitter<boolean>();
 
   swapImageSrc = 'assets/swap.png'
   dateStrings: string[] = [];
@@ -45,6 +47,8 @@ export class FlightListComponent implements OnInit {
   tableVisible = true;
   filterSelected = 'ALL';
   bgImage = '../../../assets/plane.png';
+  darkMode = false;
+  loading = true;
 
   constructor(private changeDetectorRef: ChangeDetectorRef) {
     this.airports.sort(this.compare);
@@ -71,14 +75,21 @@ export class FlightListComponent implements OnInit {
     this.filterSelected = e.target.value;
   }
 
+  onImageLoad(e: any){
+    this.loading = false;
+  }
+
   toggleImage(){
     this.bgImage = this.bgImage === '../../../assets/plane.png' ? '../../../assets/planeLight.png' : '../../../assets/plane.png';
+    this.darkMode = this.bgImage === '../../../assets/planeLight.png';
+    this.mode.emit(this.darkMode);
   }
 
   swapAirports() {
     const temp = this.selectedDepartureAirport;
     this.selectedDepartureAirport = this.selectedArrivalAirport;
     this.selectedArrivalAirport = temp;
+    this.fetchData();
   }
 
   fetchData() {
