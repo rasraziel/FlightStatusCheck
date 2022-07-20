@@ -7693,10 +7693,6 @@ describe('FlightListItemComponent', () => {
     expect((component as any)?.checkToday('22', '2022-02-22')).toBeTrue();
   });
 
-  it('check if the checkToday method returns true for the same day', () => {
-    component.fetchData()
-  });
-
   it('should create and call http service on init', () => {
     const httpSpy = TestBed.inject(HttpClient)
     const spy = spyOn(httpSpy, 'get').and.returnValue(of(data))

@@ -54,10 +54,9 @@ describe('FlightListComponent', () => {
     expect(component.filterSelected).toEqual('C');
   });
 
-  it('should fetch flights and reload list', () => {
-    const fetchBtn = fixture.debugElement.query(By.css('#fetchBtn'));
-    fetchBtn.triggerEventHandler('click', null);
-    expect(component.tableVisible).toBe(true);
+  it('should set loading to false when img is loaded', () => {
+    (component as any).onImageLoad({});
+    expect(component.loading).toBe(false);
   });
 });
 
