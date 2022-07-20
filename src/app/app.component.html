@@ -1,5 +1,5 @@
   <div [ngClass]="{'darkBg': darkMode, 'lightBg': !darkMode}">
-    <app-flight-list [ngClass]="{'darkMode': darkMode}" (mode)="darkMode = $event">
+    <app-flight-list [ngClass]="{'darkMode': darkMode, 'lightMode': !darkMode}" (mode)="darkMode = $event">
 
   </app-flight-list>
   </div>

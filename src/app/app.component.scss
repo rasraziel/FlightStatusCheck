@@ -8,7 +8,10 @@
   ::ng-deep thead {
     color: aliceblue !important;
   }
+}
 
+.lightMode {
+  background-color: #c9dbe9;
 }
 
 .darkBg {
@@ -33,6 +36,7 @@
 .lightBg {
   padding-left: 0.15rem;
   padding-right: 0.15rem;
+  background-color: #c9dbe9;
 }
 
 :host {
