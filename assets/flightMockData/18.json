@@ -1,0 +1,5577 @@
+{
+  "flightStatuses": [
+    {
+      "flightId": "EM0585-20220718-CPH-PMI",
+      "carrierFsCode": "EM",
+      "flightNumber": "585",
+      "operatedBy": "EM Airlines",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "PMI",
+      "departureDate": {
+        "dateUtc": "2022-07-18T04:00:00.000Z",
+        "dateLocal": "2022-07-18T06:00:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T07:05:00.000Z",
+        "dateLocal": "2022-07-18T09:05:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T04:00:00.000Z",
+          "dateLocal": "2022-07-18T06:00:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T04:00:00.000Z",
+          "dateLocal": "2022-07-18T06:00:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T07:05:00.000Z",
+          "dateLocal": "2022-07-18T09:05:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T07:05:00.000Z",
+          "dateLocal": "2022-07-18T09:05:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 185
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "OYKAT"
+      }
+    },
+    {
+      "flightId": "EM2991-20220718-CPH-RHO",
+      "carrierFsCode": "EM",
+      "flightNumber": "2991",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "RHO",
+      "departureDate": {
+        "dateUtc": "2022-07-18T04:00:00.000Z",
+        "dateLocal": "2022-07-18T06:00:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T07:35:00.000Z",
+        "dateLocal": "2022-07-18T10:35:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T04:00:00.000Z",
+          "dateLocal": "2022-07-18T06:00:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T04:00:00.000Z",
+          "dateLocal": "2022-07-18T06:00:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T07:35:00.000Z",
+          "dateLocal": "2022-07-18T10:35:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T07:35:00.000Z",
+          "dateLocal": "2022-07-18T10:35:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 215
+      },
+      "airportResources": {
+        "departureGate": "E4"
+      },
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "SEROT"
+      }
+    },
+    {
+      "flightId": "EM0583-20220718-CPH-AGP",
+      "carrierFsCode": "EM",
+      "flightNumber": "583",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "AGP",
+      "departureDate": {
+        "dateUtc": "2022-07-18T04:00:00.000Z",
+        "dateLocal": "2022-07-18T06:00:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T07:50:00.000Z",
+        "dateLocal": "2022-07-18T09:50:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T04:00:00.000Z",
+          "dateLocal": "2022-07-18T06:00:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T04:00:00.000Z",
+          "dateLocal": "2022-07-18T06:00:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T07:50:00.000Z",
+          "dateLocal": "2022-07-18T09:50:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T07:50:00.000Z",
+          "dateLocal": "2022-07-18T09:50:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 230
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "SEDOY"
+      }
+    },
+    {
+      "flightId": "EM0833-20220718-CPH-FRA",
+      "carrierFsCode": "EM",
+      "flightNumber": "833",
+      "operatedBy": "EM",
+      "codeShares": [
+        "A31425",
+        "AC9384",
+        "EY4170",
+        "EM3617",
+        "UA9265"
+      ],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "FRA",
+      "departureDate": {
+        "dateUtc": "2022-07-18T04:20:00.000Z",
+        "dateLocal": "2022-07-18T06:20:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T05:55:00.000Z",
+        "dateLocal": "2022-07-18T07:55:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T04:20:00.000Z",
+          "dateLocal": "2022-07-18T06:20:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T04:20:00.000Z",
+          "dateLocal": "2022-07-18T06:20:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T05:55:00.000Z",
+          "dateLocal": "2022-07-18T07:55:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T05:55:00.000Z",
+          "dateLocal": "2022-07-18T07:55:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 95
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "X01"
+      }
+    },
+    {
+      "flightId": "EM2835-20220718-CPH-PUY",
+      "carrierFsCode": "EM",
+      "flightNumber": "2835",
+      "operatedBy": "EM Link",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "PUY",
+      "departureDate": {
+        "dateUtc": "2022-07-18T04:30:00.000Z",
+        "dateLocal": "2022-07-18T06:30:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T06:30:00.000Z",
+        "dateLocal": "2022-07-18T08:30:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T04:30:00.000Z",
+          "dateLocal": "2022-07-18T06:30:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T04:30:00.000Z",
+          "dateLocal": "2022-07-18T06:30:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T06:30:00.000Z",
+          "dateLocal": "2022-07-18T08:30:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T06:30:00.000Z",
+          "dateLocal": "2022-07-18T08:30:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 120
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "EMJ",
+        "actualEquipmentIataCode": "EMJ",
+        "tailNumber": "SEREM"
+      }
+    },
+    {
+      "flightId": "EM0789-20220718-CPH-OLB",
+      "carrierFsCode": "EM",
+      "flightNumber": "789",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "OLB",
+      "departureDate": {
+        "dateUtc": "2022-07-18T04:30:00.000Z",
+        "dateLocal": "2022-07-18T06:30:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T07:15:00.000Z",
+        "dateLocal": "2022-07-18T09:15:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T04:30:00.000Z",
+          "dateLocal": "2022-07-18T06:30:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T04:30:00.000Z",
+          "dateLocal": "2022-07-18T06:30:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T07:15:00.000Z",
+          "dateLocal": "2022-07-18T09:15:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T07:15:00.000Z",
+          "dateLocal": "2022-07-18T09:15:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 165
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "SEROI"
+      }
+    },
+    {
+      "flightId": "EM2695-20220718-CPH-PMO",
+      "carrierFsCode": "EM",
+      "flightNumber": "2695",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "PMO",
+      "departureDate": {
+        "dateUtc": "2022-07-18T05:00:00.000Z",
+        "dateLocal": "2022-07-18T07:00:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T07:55:00.000Z",
+        "dateLocal": "2022-07-18T09:55:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T05:00:00.000Z",
+          "dateLocal": "2022-07-18T07:00:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T05:00:00.000Z",
+          "dateLocal": "2022-07-18T07:00:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T07:55:00.000Z",
+          "dateLocal": "2022-07-18T09:55:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T07:55:00.000Z",
+          "dateLocal": "2022-07-18T09:55:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 175
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "SEROU"
+      }
+    },
+    {
+      "flightId": "EM0402-20220718-CPH-ARN",
+      "carrierFsCode": "EM",
+      "flightNumber": "402",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "ARN",
+      "departureDate": {
+        "dateUtc": "2022-07-18T05:15:00.000Z",
+        "dateLocal": "2022-07-18T07:15:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T06:30:00.000Z",
+        "dateLocal": "2022-07-18T08:30:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T05:15:00.000Z",
+          "dateLocal": "2022-07-18T07:15:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T05:15:00.000Z",
+          "dateLocal": "2022-07-18T07:15:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T06:30:00.000Z",
+          "dateLocal": "2022-07-18T08:30:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T06:30:00.000Z",
+          "dateLocal": "2022-07-18T08:30:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 75
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "SEROG"
+      }
+    },
+    {
+      "flightId": "EM0601-20220718-CPH-ZRH",
+      "carrierFsCode": "EM",
+      "flightNumber": "601",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "ZRH",
+      "departureDate": {
+        "dateUtc": "2022-07-18T05:20:00.000Z",
+        "dateLocal": "2022-07-18T07:20:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T07:05:00.000Z",
+        "dateLocal": "2022-07-18T09:05:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T05:20:00.000Z",
+          "dateLocal": "2022-07-18T07:20:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T05:20:00.000Z",
+          "dateLocal": "2022-07-18T07:20:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T07:05:00.000Z",
+          "dateLocal": "2022-07-18T09:05:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T07:05:00.000Z",
+          "dateLocal": "2022-07-18T09:05:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 105
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPU"
+      }
+    },
+    {
+      "flightId": "EM0791-20220718-CPH-NCE",
+      "carrierFsCode": "EM",
+      "flightNumber": "791",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "NCE",
+      "departureDate": {
+        "dateUtc": "2022-07-18T05:35:00.000Z",
+        "dateLocal": "2022-07-18T07:35:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T08:00:00.000Z",
+        "dateLocal": "2022-07-18T10:00:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T05:35:00.000Z",
+          "dateLocal": "2022-07-18T07:35:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T05:35:00.000Z",
+          "dateLocal": "2022-07-18T07:35:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T08:00:00.000Z",
+          "dateLocal": "2022-07-18T10:00:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T08:00:00.000Z",
+          "dateLocal": "2022-07-18T10:00:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 145
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "OYKAM"
+      }
+    },
+    {
+      "flightId": "EM0681-20220718-CPH-FCO",
+      "carrierFsCode": "EM",
+      "flightNumber": "681",
+      "operatedBy": "EM Airlines",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "FCO",
+      "departureDate": {
+        "dateUtc": "2022-07-18T05:40:00.000Z",
+        "dateLocal": "2022-07-18T07:40:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T08:15:00.000Z",
+        "dateLocal": "2022-07-18T10:15:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T05:40:00.000Z",
+          "dateLocal": "2022-07-18T07:40:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T05:40:00.000Z",
+          "dateLocal": "2022-07-18T07:40:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T08:15:00.000Z",
+          "dateLocal": "2022-07-18T10:15:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T08:15:00.000Z",
+          "dateLocal": "2022-07-18T10:15:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 155
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "EISIG"
+      }
+    },
+    {
+      "flightId": "EM1205-20220718-CPH-AAL",
+      "carrierFsCode": "EM",
+      "flightNumber": "1205",
+      "operatedBy": "EMfly",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "AAL",
+      "departureDate": {
+        "dateUtc": "2022-07-18T05:45:00.000Z",
+        "dateLocal": "2022-07-18T07:45:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T06:40:00.000Z",
+        "dateLocal": "2022-07-18T08:40:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T05:45:00.000Z",
+          "dateLocal": "2022-07-18T07:45:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T05:45:00.000Z",
+          "dateLocal": "2022-07-18T07:45:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T06:40:00.000Z",
+          "dateLocal": "2022-07-18T08:40:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T06:40:00.000Z",
+          "dateLocal": "2022-07-18T08:40:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 55
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "ATR",
+        "actualEquipmentIataCode": "ATR",
+        "tailNumber": "ESATH"
+      }
+    },
+    {
+      "flightId": "EM1629-20220718-CPH-DUS",
+      "carrierFsCode": "EM",
+      "flightNumber": "1629",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "DUS",
+      "departureDate": {
+        "dateUtc": "2022-07-18T05:45:00.000Z",
+        "dateLocal": "2022-07-18T07:45:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T07:30:00.000Z",
+        "dateLocal": "2022-07-18T09:30:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T05:45:00.000Z",
+          "dateLocal": "2022-07-18T07:45:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T05:45:00.000Z",
+          "dateLocal": "2022-07-18T07:45:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T07:30:00.000Z",
+          "dateLocal": "2022-07-18T09:30:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T07:30:00.000Z",
+          "dateLocal": "2022-07-18T09:30:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 105
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "ATR",
+        "actualEquipmentIataCode": "ATR",
+        "tailNumber": "X01"
+      }
+    },
+    {
+      "flightId": "EM2787-20220718-CPH-SPU",
+      "carrierFsCode": "EM",
+      "flightNumber": "2787",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "SPU",
+      "departureDate": {
+        "dateUtc": "2022-07-18T05:45:00.000Z",
+        "dateLocal": "2022-07-18T07:45:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T08:00:00.000Z",
+        "dateLocal": "2022-07-18T10:00:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T05:45:00.000Z",
+          "dateLocal": "2022-07-18T07:45:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T05:45:00.000Z",
+          "dateLocal": "2022-07-18T07:45:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T08:00:00.000Z",
+          "dateLocal": "2022-07-18T10:00:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T08:00:00.000Z",
+          "dateLocal": "2022-07-18T10:00:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 135
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPS"
+      }
+    },
+    {
+      "flightId": "EM0501-20220718-CPH-EMR",
+      "carrierFsCode": "EM",
+      "flightNumber": "501",
+      "operatedBy": "EM Airlines",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "EMR",
+      "departureDate": {
+        "dateUtc": "2022-07-18T05:50:00.000Z",
+        "dateLocal": "2022-07-18T07:50:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T07:55:00.000Z",
+        "dateLocal": "2022-07-18T08:55:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T05:50:00.000Z",
+          "dateLocal": "2022-07-18T07:50:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T05:50:00.000Z",
+          "dateLocal": "2022-07-18T07:50:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T07:55:00.000Z",
+          "dateLocal": "2022-07-18T08:55:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T07:55:00.000Z",
+          "dateLocal": "2022-07-18T08:55:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 125
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "EISIN"
+      }
+    },
+    {
+      "flightId": "EM1416-20220718-CPH-ARN",
+      "carrierFsCode": "EM",
+      "flightNumber": "1416",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "ARN",
+      "departureDate": {
+        "dateUtc": "2022-07-18T06:00:00.000Z",
+        "dateLocal": "2022-07-18T08:00:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T07:15:00.000Z",
+        "dateLocal": "2022-07-18T09:15:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T06:00:00.000Z",
+          "dateLocal": "2022-07-18T08:00:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T06:00:00.000Z",
+          "dateLocal": "2022-07-18T08:00:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T07:15:00.000Z",
+          "dateLocal": "2022-07-18T09:15:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T07:15:00.000Z",
+          "dateLocal": "2022-07-18T09:15:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 75
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "OYKBK"
+      }
+    },
+    {
+      "flightId": "EM1462-20220718-CPH-OSL",
+      "carrierFsCode": "EM",
+      "flightNumber": "1462",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "OSL",
+      "departureDate": {
+        "dateUtc": "2022-07-18T06:00:00.000Z",
+        "dateLocal": "2022-07-18T08:00:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T07:10:00.000Z",
+        "dateLocal": "2022-07-18T09:10:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T06:00:00.000Z",
+          "dateLocal": "2022-07-18T08:00:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T06:00:00.000Z",
+          "dateLocal": "2022-07-18T08:00:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T07:10:00.000Z",
+          "dateLocal": "2022-07-18T09:10:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T07:10:00.000Z",
+          "dateLocal": "2022-07-18T09:10:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 70
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "OYKBB"
+      }
+    },
+    {
+      "flightId": "EM1641-20220718-CPH-HAM",
+      "carrierFsCode": "EM",
+      "flightNumber": "1641",
+      "operatedBy": "EMfly",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "HAM",
+      "departureDate": {
+        "dateUtc": "2022-07-18T06:00:00.000Z",
+        "dateLocal": "2022-07-18T08:00:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T07:05:00.000Z",
+        "dateLocal": "2022-07-18T09:05:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T06:00:00.000Z",
+          "dateLocal": "2022-07-18T08:00:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T06:00:00.000Z",
+          "dateLocal": "2022-07-18T08:00:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T07:05:00.000Z",
+          "dateLocal": "2022-07-18T09:05:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T07:05:00.000Z",
+          "dateLocal": "2022-07-18T09:05:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 65
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "ATR",
+        "actualEquipmentIataCode": "ATR",
+        "tailNumber": "ESATC"
+      }
+    },
+    {
+      "flightId": "EM2862-20220718-CPH-BGO",
+      "carrierFsCode": "EM",
+      "flightNumber": "2862",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "BGO",
+      "departureDate": {
+        "dateUtc": "2022-07-18T06:05:00.000Z",
+        "dateLocal": "2022-07-18T08:05:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T07:25:00.000Z",
+        "dateLocal": "2022-07-18T09:25:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T06:05:00.000Z",
+          "dateLocal": "2022-07-18T08:05:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T06:05:00.000Z",
+          "dateLocal": "2022-07-18T08:05:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T07:25:00.000Z",
+          "dateLocal": "2022-07-18T09:25:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T07:25:00.000Z",
+          "dateLocal": "2022-07-18T09:25:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 80
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPW"
+      }
+    },
+    {
+      "flightId": "EM1870-20220718-CPH-SVG",
+      "carrierFsCode": "EM",
+      "flightNumber": "1870",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "SVG",
+      "departureDate": {
+        "dateUtc": "2022-07-18T06:05:00.000Z",
+        "dateLocal": "2022-07-18T08:05:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T07:15:00.000Z",
+        "dateLocal": "2022-07-18T09:15:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T06:05:00.000Z",
+          "dateLocal": "2022-07-18T08:05:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T06:05:00.000Z",
+          "dateLocal": "2022-07-18T08:05:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T07:15:00.000Z",
+          "dateLocal": "2022-07-18T09:15:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T07:15:00.000Z",
+          "dateLocal": "2022-07-18T09:15:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 70
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPN"
+      }
+    },
+    {
+      "flightId": "EM2551-20220718-CPH-AMS",
+      "carrierFsCode": "EM",
+      "flightNumber": "2551",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "AMS",
+      "departureDate": {
+        "dateUtc": "2022-07-18T06:15:00.000Z",
+        "dateLocal": "2022-07-18T08:15:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T07:45:00.000Z",
+        "dateLocal": "2022-07-18T09:45:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T06:15:00.000Z",
+          "dateLocal": "2022-07-18T08:15:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T06:15:00.000Z",
+          "dateLocal": "2022-07-18T08:15:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T07:45:00.000Z",
+          "dateLocal": "2022-07-18T09:45:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T07:45:00.000Z",
+          "dateLocal": "2022-07-18T09:45:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 90
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPH"
+      }
+    },
+    {
+      "flightId": "EM0593-20220718-CPH-BRU",
+      "carrierFsCode": "EM",
+      "flightNumber": "593",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "BRU",
+      "departureDate": {
+        "dateUtc": "2022-07-18T06:15:00.000Z",
+        "dateLocal": "2022-07-18T08:15:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T07:50:00.000Z",
+        "dateLocal": "2022-07-18T09:50:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T06:15:00.000Z",
+          "dateLocal": "2022-07-18T08:15:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T06:15:00.000Z",
+          "dateLocal": "2022-07-18T08:15:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T07:50:00.000Z",
+          "dateLocal": "2022-07-18T09:50:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T07:50:00.000Z",
+          "dateLocal": "2022-07-18T09:50:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 95
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPB"
+      }
+    },
+    {
+      "flightId": "EM2813-20220718-CPH-ALC",
+      "carrierFsCode": "EM",
+      "flightNumber": "2813",
+      "operatedBy": "EM Airlines",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "ALC",
+      "departureDate": {
+        "dateUtc": "2022-07-18T06:20:00.000Z",
+        "dateLocal": "2022-07-18T08:20:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T09:40:00.000Z",
+        "dateLocal": "2022-07-18T11:40:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T06:20:00.000Z",
+          "dateLocal": "2022-07-18T08:20:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T06:20:00.000Z",
+          "dateLocal": "2022-07-18T08:20:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T09:40:00.000Z",
+          "dateLocal": "2022-07-18T11:40:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T09:40:00.000Z",
+          "dateLocal": "2022-07-18T11:40:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 200
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "EISIF"
+      }
+    },
+    {
+      "flightId": "EM0434-20220718-CPH-GOT",
+      "carrierFsCode": "EM",
+      "flightNumber": "434",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "GOT",
+      "departureDate": {
+        "dateUtc": "2022-07-18T06:20:00.000Z",
+        "dateLocal": "2022-07-18T08:20:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T07:05:00.000Z",
+        "dateLocal": "2022-07-18T09:05:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T06:20:00.000Z",
+          "dateLocal": "2022-07-18T08:20:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T06:20:00.000Z",
+          "dateLocal": "2022-07-18T08:20:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T07:05:00.000Z",
+          "dateLocal": "2022-07-18T09:05:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T07:05:00.000Z",
+          "dateLocal": "2022-07-18T09:05:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 45
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIGEA"
+      }
+    },
+    {
+      "flightId": "EM1685-20220718-CPH-MXP",
+      "carrierFsCode": "EM",
+      "flightNumber": "1685",
+      "operatedBy": "EM Link",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "MXP",
+      "departureDate": {
+        "dateUtc": "2022-07-18T06:25:00.000Z",
+        "dateLocal": "2022-07-18T08:25:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T08:30:00.000Z",
+        "dateLocal": "2022-07-18T10:30:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T06:25:00.000Z",
+          "dateLocal": "2022-07-18T08:25:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T06:25:00.000Z",
+          "dateLocal": "2022-07-18T08:25:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T08:30:00.000Z",
+          "dateLocal": "2022-07-18T10:30:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T08:30:00.000Z",
+          "dateLocal": "2022-07-18T10:30:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 125
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "EMJ",
+        "actualEquipmentIataCode": "EMJ",
+        "tailNumber": "SERSO"
+      }
+    },
+    {
+      "flightId": "EM0565-20220718-CPH-CDG",
+      "carrierFsCode": "EM",
+      "flightNumber": "565",
+      "operatedBy": "EM Link",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "CDG",
+      "departureDate": {
+        "dateUtc": "2022-07-18T06:25:00.000Z",
+        "dateLocal": "2022-07-18T08:25:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T08:20:00.000Z",
+        "dateLocal": "2022-07-18T10:20:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T06:25:00.000Z",
+          "dateLocal": "2022-07-18T08:25:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T06:25:00.000Z",
+          "dateLocal": "2022-07-18T08:25:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T08:20:00.000Z",
+          "dateLocal": "2022-07-18T10:20:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T08:20:00.000Z",
+          "dateLocal": "2022-07-18T10:20:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 115
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPX"
+      }
+    },
+    {
+      "flightId": "EM0595-20220718-CPH-KEF",
+      "carrierFsCode": "EM",
+      "flightNumber": "595",
+      "operatedBy": "EM Airlines",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "KEF",
+      "departureDate": {
+        "dateUtc": "2022-07-18T06:30:00.000Z",
+        "dateLocal": "2022-07-18T08:30:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T09:45:00.000Z",
+        "dateLocal": "2022-07-18T09:45:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T06:30:00.000Z",
+          "dateLocal": "2022-07-18T08:30:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T06:30:00.000Z",
+          "dateLocal": "2022-07-18T08:30:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T09:45:00.000Z",
+          "dateLocal": "2022-07-18T09:45:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T09:45:00.000Z",
+          "dateLocal": "2022-07-18T09:45:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 195
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "EISIE"
+      }
+    },
+    {
+      "flightId": "EM0539-20220718-CPH-MAN",
+      "carrierFsCode": "EM",
+      "flightNumber": "539",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "MAN",
+      "departureDate": {
+        "dateUtc": "2022-07-18T06:30:00.000Z",
+        "dateLocal": "2022-07-18T08:30:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T08:35:00.000Z",
+        "dateLocal": "2022-07-18T09:35:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T06:30:00.000Z",
+          "dateLocal": "2022-07-18T08:30:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T06:30:00.000Z",
+          "dateLocal": "2022-07-18T08:30:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T08:35:00.000Z",
+          "dateLocal": "2022-07-18T09:35:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T08:35:00.000Z",
+          "dateLocal": "2022-07-18T09:35:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 125
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPT"
+      }
+    },
+    {
+      "flightId": "EM1464-20220718-CPH-OSL",
+      "carrierFsCode": "EM",
+      "flightNumber": "1464",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "OSL",
+      "departureDate": {
+        "dateUtc": "2022-07-18T06:50:00.000Z",
+        "dateLocal": "2022-07-18T08:50:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T08:00:00.000Z",
+        "dateLocal": "2022-07-18T10:00:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T06:50:00.000Z",
+          "dateLocal": "2022-07-18T08:50:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T06:50:00.000Z",
+          "dateLocal": "2022-07-18T08:50:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T08:00:00.000Z",
+          "dateLocal": "2022-07-18T10:00:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T08:00:00.000Z",
+          "dateLocal": "2022-07-18T10:00:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 70
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "737",
+        "actualEquipmentIataCode": "737",
+        "tailNumber": "LNRRG"
+      }
+    },
+    {
+      "flightId": "EM2831-20220718-CPH-SPU",
+      "carrierFsCode": "EM",
+      "flightNumber": "2831",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "SPU",
+      "departureDate": {
+        "dateUtc": "2022-07-18T07:00:00.000Z",
+        "dateLocal": "2022-07-18T09:00:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T09:15:00.000Z",
+        "dateLocal": "2022-07-18T11:15:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T07:00:00.000Z",
+          "dateLocal": "2022-07-18T09:00:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T07:00:00.000Z",
+          "dateLocal": "2022-07-18T09:00:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T09:15:00.000Z",
+          "dateLocal": "2022-07-18T11:15:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T09:15:00.000Z",
+          "dateLocal": "2022-07-18T11:15:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 135
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "SEROX"
+      }
+    },
+    {
+      "flightId": "EM0931-20220718-CPH-LAX",
+      "carrierFsCode": "EM",
+      "flightNumber": "931",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "LAX",
+      "departureDate": {
+        "dateUtc": "2022-07-18T07:30:00.000Z",
+        "dateLocal": "2022-07-18T09:30:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T18:45:00.000Z",
+        "dateLocal": "2022-07-18T11:45:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T07:30:00.000Z",
+          "dateLocal": "2022-07-18T09:30:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T07:30:00.000Z",
+          "dateLocal": "2022-07-18T09:30:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T18:45:00.000Z",
+          "dateLocal": "2022-07-18T11:45:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T18:45:00.000Z",
+          "dateLocal": "2022-07-18T11:45:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 675
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "350",
+        "actualEquipmentIataCode": "350",
+        "tailNumber": "SERSC"
+      }
+    },
+    {
+      "flightId": "EM0777-20220718-CPH-ATH",
+      "carrierFsCode": "EM",
+      "flightNumber": "777",
+      "operatedBy": "EM Airlines",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "ATH",
+      "departureDate": {
+        "dateUtc": "2022-07-18T08:15:00.000Z",
+        "dateLocal": "2022-07-18T10:15:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T11:30:00.000Z",
+        "dateLocal": "2022-07-18T14:30:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T08:15:00.000Z",
+          "dateLocal": "2022-07-18T10:15:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T08:15:00.000Z",
+          "dateLocal": "2022-07-18T10:15:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T11:30:00.000Z",
+          "dateLocal": "2022-07-18T14:30:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T11:30:00.000Z",
+          "dateLocal": "2022-07-18T14:30:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 195
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "X01"
+      }
+    },
+    {
+      "flightId": "EM1207-20220718-CPH-AAL",
+      "carrierFsCode": "EM",
+      "flightNumber": "1207",
+      "operatedBy": "EMfly",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "AAL",
+      "departureDate": {
+        "dateUtc": "2022-07-18T08:30:00.000Z",
+        "dateLocal": "2022-07-18T10:30:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T09:25:00.000Z",
+        "dateLocal": "2022-07-18T11:25:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T08:30:00.000Z",
+          "dateLocal": "2022-07-18T10:30:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T08:30:00.000Z",
+          "dateLocal": "2022-07-18T10:30:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T09:25:00.000Z",
+          "dateLocal": "2022-07-18T11:25:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T09:25:00.000Z",
+          "dateLocal": "2022-07-18T11:25:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 55
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "ATR",
+        "actualEquipmentIataCode": "ATR",
+        "tailNumber": "ESATH"
+      }
+    },
+    {
+      "flightId": "EM1777-20220718-CPH-FAE",
+      "carrierFsCode": "EM",
+      "flightNumber": "1777",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "FAE",
+      "departureDate": {
+        "dateUtc": "2022-07-18T09:00:00.000Z",
+        "dateLocal": "2022-07-18T11:00:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T11:15:00.000Z",
+        "dateLocal": "2022-07-18T12:15:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T09:00:00.000Z",
+          "dateLocal": "2022-07-18T11:00:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T09:00:00.000Z",
+          "dateLocal": "2022-07-18T11:00:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T11:15:00.000Z",
+          "dateLocal": "2022-07-18T12:15:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T11:15:00.000Z",
+          "dateLocal": "2022-07-18T12:15:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 135
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "SEROG"
+      }
+    },
+    {
+      "flightId": "EM2613-20220718-CPH-GVA",
+      "carrierFsCode": "EM",
+      "flightNumber": "2613",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "GVA",
+      "departureDate": {
+        "dateUtc": "2022-07-18T09:10:00.000Z",
+        "dateLocal": "2022-07-18T11:10:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T11:10:00.000Z",
+        "dateLocal": "2022-07-18T13:10:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T09:10:00.000Z",
+          "dateLocal": "2022-07-18T11:10:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T09:10:00.000Z",
+          "dateLocal": "2022-07-18T11:10:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T11:10:00.000Z",
+          "dateLocal": "2022-07-18T13:10:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T11:10:00.000Z",
+          "dateLocal": "2022-07-18T13:10:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 120
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIGEA"
+      }
+    },
+    {
+      "flightId": "EM1247-20220718-CPH-AAR",
+      "carrierFsCode": "EM",
+      "flightNumber": "1247",
+      "operatedBy": "EMfly",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "AAR",
+      "departureDate": {
+        "dateUtc": "2022-07-18T09:30:00.000Z",
+        "dateLocal": "2022-07-18T11:30:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T10:10:00.000Z",
+        "dateLocal": "2022-07-18T12:10:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T09:30:00.000Z",
+          "dateLocal": "2022-07-18T11:30:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T09:30:00.000Z",
+          "dateLocal": "2022-07-18T11:30:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T10:10:00.000Z",
+          "dateLocal": "2022-07-18T12:10:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T10:10:00.000Z",
+          "dateLocal": "2022-07-18T12:10:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 40
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "ATR",
+        "actualEquipmentIataCode": "ATR",
+        "tailNumber": "ESATJ"
+      }
+    },
+    {
+      "flightId": "EM2864-20220718-CPH-BGO",
+      "carrierFsCode": "EM",
+      "flightNumber": "2864",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "BGO",
+      "departureDate": {
+        "dateUtc": "2022-07-18T09:45:00.000Z",
+        "dateLocal": "2022-07-18T11:45:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T11:05:00.000Z",
+        "dateLocal": "2022-07-18T13:05:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T09:45:00.000Z",
+          "dateLocal": "2022-07-18T11:45:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T09:45:00.000Z",
+          "dateLocal": "2022-07-18T11:45:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T11:05:00.000Z",
+          "dateLocal": "2022-07-18T13:05:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T11:05:00.000Z",
+          "dateLocal": "2022-07-18T13:05:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 80
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPN"
+      }
+    },
+    {
+      "flightId": "EM1420-20220718-CPH-ARN",
+      "carrierFsCode": "EM",
+      "flightNumber": "1420",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "ARN",
+      "departureDate": {
+        "dateUtc": "2022-07-18T09:45:00.000Z",
+        "dateLocal": "2022-07-18T11:45:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T11:00:00.000Z",
+        "dateLocal": "2022-07-18T13:00:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T09:45:00.000Z",
+          "dateLocal": "2022-07-18T11:45:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T09:45:00.000Z",
+          "dateLocal": "2022-07-18T11:45:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T11:00:00.000Z",
+          "dateLocal": "2022-07-18T13:00:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T11:00:00.000Z",
+          "dateLocal": "2022-07-18T13:00:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 75
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "OYKBK"
+      }
+    },
+    {
+      "flightId": "EM1458-20220718-CPH-OSL",
+      "carrierFsCode": "EM",
+      "flightNumber": "1458",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "OSL",
+      "departureDate": {
+        "dateUtc": "2022-07-18T09:45:00.000Z",
+        "dateLocal": "2022-07-18T11:45:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T10:55:00.000Z",
+        "dateLocal": "2022-07-18T12:55:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T09:45:00.000Z",
+          "dateLocal": "2022-07-18T11:45:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T09:45:00.000Z",
+          "dateLocal": "2022-07-18T11:45:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T10:55:00.000Z",
+          "dateLocal": "2022-07-18T12:55:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T10:55:00.000Z",
+          "dateLocal": "2022-07-18T12:55:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 70
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "OYKBB"
+      }
+    },
+    {
+      "flightId": "EM1868-20220718-CPH-SVG",
+      "carrierFsCode": "EM",
+      "flightNumber": "1868",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "SVG",
+      "departureDate": {
+        "dateUtc": "2022-07-18T09:55:00.000Z",
+        "dateLocal": "2022-07-18T11:55:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T11:05:00.000Z",
+        "dateLocal": "2022-07-18T13:05:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T09:55:00.000Z",
+          "dateLocal": "2022-07-18T11:55:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T09:55:00.000Z",
+          "dateLocal": "2022-07-18T11:55:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T11:05:00.000Z",
+          "dateLocal": "2022-07-18T13:05:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T11:05:00.000Z",
+          "dateLocal": "2022-07-18T13:05:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 70
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPW"
+      }
+    },
+    {
+      "flightId": "EM2746-20220718-CPH-PLQ",
+      "carrierFsCode": "EM",
+      "flightNumber": "2746",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "PLQ",
+      "departureDate": {
+        "dateUtc": "2022-07-18T10:05:00.000Z",
+        "dateLocal": "2022-07-18T12:05:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T11:10:00.000Z",
+        "dateLocal": "2022-07-18T14:10:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T10:05:00.000Z",
+          "dateLocal": "2022-07-18T12:05:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T10:05:00.000Z",
+          "dateLocal": "2022-07-18T12:05:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T11:10:00.000Z",
+          "dateLocal": "2022-07-18T14:10:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T11:10:00.000Z",
+          "dateLocal": "2022-07-18T14:10:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 65
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPU"
+      }
+    },
+    {
+      "flightId": "EM0935-20220718-CPH-SFO",
+      "carrierFsCode": "EM",
+      "flightNumber": "935",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "SFO",
+      "departureDate": {
+        "dateUtc": "2022-07-18T10:15:00.000Z",
+        "dateLocal": "2022-07-18T12:15:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T21:20:00.000Z",
+        "dateLocal": "2022-07-18T14:20:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T10:15:00.000Z",
+          "dateLocal": "2022-07-18T12:15:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T10:15:00.000Z",
+          "dateLocal": "2022-07-18T12:15:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T21:20:00.000Z",
+          "dateLocal": "2022-07-18T14:20:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T21:20:00.000Z",
+          "dateLocal": "2022-07-18T14:20:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 665
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "350",
+        "actualEquipmentIataCode": "350",
+        "tailNumber": "SERSA"
+      }
+    },
+    {
+      "flightId": "EM0925-20220718-CPH-IAD",
+      "carrierFsCode": "EM",
+      "flightNumber": "925",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "IAD",
+      "departureDate": {
+        "dateUtc": "2022-07-18T10:20:00.000Z",
+        "dateLocal": "2022-07-18T12:20:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T19:00:00.000Z",
+        "dateLocal": "2022-07-18T15:00:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T10:20:00.000Z",
+          "dateLocal": "2022-07-18T12:20:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T10:20:00.000Z",
+          "dateLocal": "2022-07-18T12:20:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T19:00:00.000Z",
+          "dateLocal": "2022-07-18T15:00:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T19:00:00.000Z",
+          "dateLocal": "2022-07-18T15:00:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 520
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "330",
+        "actualEquipmentIataCode": "330",
+        "tailNumber": "LNRKN"
+      }
+    },
+    {
+      "flightId": "EM1683-20220718-CPH-MXP",
+      "carrierFsCode": "EM",
+      "flightNumber": "1683",
+      "operatedBy": "EM Link",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "MXP",
+      "departureDate": {
+        "dateUtc": "2022-07-18T10:30:00.000Z",
+        "dateLocal": "2022-07-18T12:30:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T12:35:00.000Z",
+        "dateLocal": "2022-07-18T14:35:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T10:30:00.000Z",
+          "dateLocal": "2022-07-18T12:30:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T10:30:00.000Z",
+          "dateLocal": "2022-07-18T12:30:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T12:35:00.000Z",
+          "dateLocal": "2022-07-18T14:35:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T12:35:00.000Z",
+          "dateLocal": "2022-07-18T14:35:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 125
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "EMJ",
+        "actualEquipmentIataCode": "EMJ",
+        "tailNumber": "SEREM"
+      }
+    },
+    {
+      "flightId": "EM1742-20220718-CPH-VNO",
+      "carrierFsCode": "EM",
+      "flightNumber": "1742",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "VNO",
+      "departureDate": {
+        "dateUtc": "2022-07-18T10:30:00.000Z",
+        "dateLocal": "2022-07-18T12:30:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T12:00:00.000Z",
+        "dateLocal": "2022-07-18T15:00:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T10:30:00.000Z",
+          "dateLocal": "2022-07-18T12:30:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T10:30:00.000Z",
+          "dateLocal": "2022-07-18T12:30:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T12:00:00.000Z",
+          "dateLocal": "2022-07-18T15:00:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T12:00:00.000Z",
+          "dateLocal": "2022-07-18T15:00:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 90
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPH"
+      }
+    },
+    {
+      "flightId": "EM0909-20220718-CPH-EWR",
+      "carrierFsCode": "EM",
+      "flightNumber": "909",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "EWR",
+      "departureDate": {
+        "dateUtc": "2022-07-18T10:35:00.000Z",
+        "dateLocal": "2022-07-18T12:35:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T18:55:00.000Z",
+        "dateLocal": "2022-07-18T14:55:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T10:35:00.000Z",
+          "dateLocal": "2022-07-18T12:35:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T10:35:00.000Z",
+          "dateLocal": "2022-07-18T12:35:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T18:55:00.000Z",
+          "dateLocal": "2022-07-18T14:55:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T18:55:00.000Z",
+          "dateLocal": "2022-07-18T14:55:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 500
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "350",
+        "actualEquipmentIataCode": "350",
+        "tailNumber": "SERSF"
+      }
+    },
+    {
+      "flightId": "EM2691-20220718-CPH-VCE",
+      "carrierFsCode": "EM",
+      "flightNumber": "2691",
+      "operatedBy": "EM Airlines",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "VCE",
+      "departureDate": {
+        "dateUtc": "2022-07-18T10:40:00.000Z",
+        "dateLocal": "2022-07-18T12:40:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T12:45:00.000Z",
+        "dateLocal": "2022-07-18T14:45:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T10:40:00.000Z",
+          "dateLocal": "2022-07-18T12:40:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T10:40:00.000Z",
+          "dateLocal": "2022-07-18T12:40:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T12:45:00.000Z",
+          "dateLocal": "2022-07-18T14:45:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T12:45:00.000Z",
+          "dateLocal": "2022-07-18T14:45:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 125
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "OYKAO"
+      }
+    },
+    {
+      "flightId": "EM2882-20220718-CPH-TRD",
+      "carrierFsCode": "EM",
+      "flightNumber": "2882",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "TRD",
+      "departureDate": {
+        "dateUtc": "2022-07-18T11:35:00.000Z",
+        "dateLocal": "2022-07-18T13:35:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T13:10:00.000Z",
+        "dateLocal": "2022-07-18T15:10:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T11:35:00.000Z",
+          "dateLocal": "2022-07-18T13:35:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T11:35:00.000Z",
+          "dateLocal": "2022-07-18T13:35:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T13:10:00.000Z",
+          "dateLocal": "2022-07-18T15:10:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T13:10:00.000Z",
+          "dateLocal": "2022-07-18T15:10:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 95
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPX"
+      }
+    },
+    {
+      "flightId": "EM1213-20220718-CPH-AAL",
+      "carrierFsCode": "EM",
+      "flightNumber": "1213",
+      "operatedBy": "EMfly",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "AAL",
+      "departureDate": {
+        "dateUtc": "2022-07-18T11:35:00.000Z",
+        "dateLocal": "2022-07-18T13:35:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T12:30:00.000Z",
+        "dateLocal": "2022-07-18T14:30:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T11:35:00.000Z",
+          "dateLocal": "2022-07-18T13:35:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T11:35:00.000Z",
+          "dateLocal": "2022-07-18T13:35:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T12:30:00.000Z",
+          "dateLocal": "2022-07-18T14:30:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T12:30:00.000Z",
+          "dateLocal": "2022-07-18T14:30:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 55
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "ATR",
+        "actualEquipmentIataCode": "ATR",
+        "tailNumber": "ESATH"
+      }
+    },
+    {
+      "flightId": "EM2892-20220718-CPH-AES",
+      "carrierFsCode": "EM",
+      "flightNumber": "2892",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "AES",
+      "departureDate": {
+        "dateUtc": "2022-07-18T11:40:00.000Z",
+        "dateLocal": "2022-07-18T13:40:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T13:15:00.000Z",
+        "dateLocal": "2022-07-18T15:15:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T11:40:00.000Z",
+          "dateLocal": "2022-07-18T13:40:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T11:40:00.000Z",
+          "dateLocal": "2022-07-18T13:40:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T13:15:00.000Z",
+          "dateLocal": "2022-07-18T15:15:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T13:15:00.000Z",
+          "dateLocal": "2022-07-18T15:15:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 95
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPB"
+      }
+    },
+    {
+      "flightId": "EM2817-20220718-CPH-CHQ",
+      "carrierFsCode": "EM",
+      "flightNumber": "2817",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "CHQ",
+      "departureDate": {
+        "dateUtc": "2022-07-18T11:55:00.000Z",
+        "dateLocal": "2022-07-18T13:55:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T15:25:00.000Z",
+        "dateLocal": "2022-07-18T18:25:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T11:55:00.000Z",
+          "dateLocal": "2022-07-18T13:55:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T11:55:00.000Z",
+          "dateLocal": "2022-07-18T13:55:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T15:25:00.000Z",
+          "dateLocal": "2022-07-18T18:25:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T15:25:00.000Z",
+          "dateLocal": "2022-07-18T18:25:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 210
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "OYKAN"
+      }
+    },
+    {
+      "flightId": "EM0458-20220718-CPH-OSL",
+      "carrierFsCode": "EM",
+      "flightNumber": "458",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "OSL",
+      "departureDate": {
+        "dateUtc": "2022-07-18T11:55:00.000Z",
+        "dateLocal": "2022-07-18T13:55:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T13:05:00.000Z",
+        "dateLocal": "2022-07-18T15:05:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T11:55:00.000Z",
+          "dateLocal": "2022-07-18T13:55:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T11:55:00.000Z",
+          "dateLocal": "2022-07-18T13:55:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T13:05:00.000Z",
+          "dateLocal": "2022-07-18T15:05:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T13:05:00.000Z",
+          "dateLocal": "2022-07-18T15:05:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 70
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPS"
+      }
+    },
+    {
+      "flightId": "EM2986-20220718-CPH-KRS",
+      "carrierFsCode": "EM",
+      "flightNumber": "2986",
+      "operatedBy": "EMfly",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "KRS",
+      "departureDate": {
+        "dateUtc": "2022-07-18T12:05:00.000Z",
+        "dateLocal": "2022-07-18T14:05:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T13:25:00.000Z",
+        "dateLocal": "2022-07-18T15:25:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T12:05:00.000Z",
+          "dateLocal": "2022-07-18T14:05:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T12:05:00.000Z",
+          "dateLocal": "2022-07-18T14:05:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T13:25:00.000Z",
+          "dateLocal": "2022-07-18T15:25:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T13:25:00.000Z",
+          "dateLocal": "2022-07-18T15:25:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 80
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "ATR",
+        "actualEquipmentIataCode": "ATR",
+        "tailNumber": "ESATC"
+      }
+    },
+    {
+      "flightId": "EM2868-20220718-CPH-BGO",
+      "carrierFsCode": "EM",
+      "flightNumber": "2868",
+      "operatedBy": "EM Link",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "BGO",
+      "departureDate": {
+        "dateUtc": "2022-07-18T12:05:00.000Z",
+        "dateLocal": "2022-07-18T14:05:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T13:25:00.000Z",
+        "dateLocal": "2022-07-18T15:25:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T12:05:00.000Z",
+          "dateLocal": "2022-07-18T14:05:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T12:05:00.000Z",
+          "dateLocal": "2022-07-18T14:05:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T13:25:00.000Z",
+          "dateLocal": "2022-07-18T15:25:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T13:25:00.000Z",
+          "dateLocal": "2022-07-18T15:25:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 80
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "EMJ",
+        "actualEquipmentIataCode": "EMJ",
+        "tailNumber": "SERSO"
+      }
+    },
+    {
+      "flightId": "EM1872-20220718-CPH-SVG",
+      "carrierFsCode": "EM",
+      "flightNumber": "1872",
+      "operatedBy": "EM Airlines",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "SVG",
+      "departureDate": {
+        "dateUtc": "2022-07-18T12:05:00.000Z",
+        "dateLocal": "2022-07-18T14:05:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T13:15:00.000Z",
+        "dateLocal": "2022-07-18T15:15:00.000"
+      },
+      "status": "C",
+      "statusDescription": "CANCELLED",
+      "statusInfo": {
+        "status": "Cancelled",
+        "indicator": "red",
+        "displayStatus": "Cancelled",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T12:05:00.000Z",
+          "dateLocal": "2022-07-18T14:05:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T12:05:00.000Z",
+          "dateLocal": "2022-07-18T14:05:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T13:15:00.000Z",
+          "dateLocal": "2022-07-18T15:15:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T13:15:00.000Z",
+          "dateLocal": "2022-07-18T15:15:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 70
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "---"
+      }
+    },
+    {
+      "flightId": "EM0649-20220718-CPH-HAM",
+      "carrierFsCode": "EM",
+      "flightNumber": "649",
+      "operatedBy": "EMfly",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "HAM",
+      "departureDate": {
+        "dateUtc": "2022-07-18T12:05:00.000Z",
+        "dateLocal": "2022-07-18T14:05:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T13:10:00.000Z",
+        "dateLocal": "2022-07-18T15:10:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T12:05:00.000Z",
+          "dateLocal": "2022-07-18T14:05:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T12:05:00.000Z",
+          "dateLocal": "2022-07-18T14:05:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T13:10:00.000Z",
+          "dateLocal": "2022-07-18T15:10:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T13:10:00.000Z",
+          "dateLocal": "2022-07-18T15:10:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 65
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "ATR",
+        "actualEquipmentIataCode": "ATR",
+        "tailNumber": "ESATJ"
+      }
+    },
+    {
+      "flightId": "EM0759-20220718-CPH-GDN",
+      "carrierFsCode": "EM",
+      "flightNumber": "759",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "GDN",
+      "departureDate": {
+        "dateUtc": "2022-07-18T12:05:00.000Z",
+        "dateLocal": "2022-07-18T14:05:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T13:00:00.000Z",
+        "dateLocal": "2022-07-18T15:00:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T12:05:00.000Z",
+          "dateLocal": "2022-07-18T14:05:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T12:05:00.000Z",
+          "dateLocal": "2022-07-18T14:05:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T13:00:00.000Z",
+          "dateLocal": "2022-07-18T15:00:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T13:00:00.000Z",
+          "dateLocal": "2022-07-18T15:00:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 55
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPT"
+      }
+    },
+    {
+      "flightId": "EM0505-20220718-CPH-EMR",
+      "carrierFsCode": "EM",
+      "flightNumber": "505",
+      "operatedBy": "EM Airlines",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "EMR",
+      "departureDate": {
+        "dateUtc": "2022-07-18T13:00:00.000Z",
+        "dateLocal": "2022-07-18T15:00:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T15:00:00.000Z",
+        "dateLocal": "2022-07-18T16:00:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T13:00:00.000Z",
+          "dateLocal": "2022-07-18T15:00:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T13:00:00.000Z",
+          "dateLocal": "2022-07-18T15:00:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T15:00:00.000Z",
+          "dateLocal": "2022-07-18T16:00:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T15:00:00.000Z",
+          "dateLocal": "2022-07-18T16:00:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 120
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "EISIG"
+      }
+    },
+    {
+      "flightId": "EM1593-20220718-CPH-BRU",
+      "carrierFsCode": "EM",
+      "flightNumber": "1593",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "BRU",
+      "departureDate": {
+        "dateUtc": "2022-07-18T13:20:00.000Z",
+        "dateLocal": "2022-07-18T15:20:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T14:50:00.000Z",
+        "dateLocal": "2022-07-18T16:50:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T13:20:00.000Z",
+          "dateLocal": "2022-07-18T15:20:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T13:20:00.000Z",
+          "dateLocal": "2022-07-18T15:20:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T14:50:00.000Z",
+          "dateLocal": "2022-07-18T16:50:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T14:50:00.000Z",
+          "dateLocal": "2022-07-18T16:50:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 90
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPW"
+      }
+    },
+    {
+      "flightId": "EM2961-20220718-CPH-FLR",
+      "carrierFsCode": "EM",
+      "flightNumber": "2961",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "FLR",
+      "departureDate": {
+        "dateUtc": "2022-07-18T13:25:00.000Z",
+        "dateLocal": "2022-07-18T15:25:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T15:45:00.000Z",
+        "dateLocal": "2022-07-18T17:45:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T13:25:00.000Z",
+          "dateLocal": "2022-07-18T15:25:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T13:25:00.000Z",
+          "dateLocal": "2022-07-18T15:25:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T15:45:00.000Z",
+          "dateLocal": "2022-07-18T17:45:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T15:45:00.000Z",
+          "dateLocal": "2022-07-18T17:45:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 140
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "SEROS"
+      }
+    },
+    {
+      "flightId": "EM1460-20220718-CPH-OSL",
+      "carrierFsCode": "EM",
+      "flightNumber": "1460",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "OSL",
+      "departureDate": {
+        "dateUtc": "2022-07-18T13:25:00.000Z",
+        "dateLocal": "2022-07-18T15:25:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T14:35:00.000Z",
+        "dateLocal": "2022-07-18T16:35:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T13:25:00.000Z",
+          "dateLocal": "2022-07-18T15:25:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T13:25:00.000Z",
+          "dateLocal": "2022-07-18T15:25:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T14:35:00.000Z",
+          "dateLocal": "2022-07-18T16:35:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T14:35:00.000Z",
+          "dateLocal": "2022-07-18T16:35:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 70
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "OYKBB"
+      }
+    },
+    {
+      "flightId": "EM1585-20220718-CPH-BCN",
+      "carrierFsCode": "EM",
+      "flightNumber": "1585",
+      "operatedBy": "EM Link",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "BCN",
+      "departureDate": {
+        "dateUtc": "2022-07-18T13:25:00.000Z",
+        "dateLocal": "2022-07-18T15:25:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T16:20:00.000Z",
+        "dateLocal": "2022-07-18T18:20:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T13:25:00.000Z",
+          "dateLocal": "2022-07-18T15:25:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T13:25:00.000Z",
+          "dateLocal": "2022-07-18T15:25:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T16:20:00.000Z",
+          "dateLocal": "2022-07-18T18:20:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T16:20:00.000Z",
+          "dateLocal": "2022-07-18T18:20:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 175
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPU"
+      }
+    },
+    {
+      "flightId": "EM2872-20220718-CPH-BGO",
+      "carrierFsCode": "EM",
+      "flightNumber": "2872",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "BGO",
+      "departureDate": {
+        "dateUtc": "2022-07-18T13:30:00.000Z",
+        "dateLocal": "2022-07-18T15:30:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T14:50:00.000Z",
+        "dateLocal": "2022-07-18T16:50:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T13:30:00.000Z",
+          "dateLocal": "2022-07-18T15:30:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T13:30:00.000Z",
+          "dateLocal": "2022-07-18T15:30:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T14:50:00.000Z",
+          "dateLocal": "2022-07-18T16:50:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T14:50:00.000Z",
+          "dateLocal": "2022-07-18T16:50:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 80
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPN"
+      }
+    },
+    {
+      "flightId": "EM1424-20220718-CPH-ARN",
+      "carrierFsCode": "EM",
+      "flightNumber": "1424",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "ARN",
+      "departureDate": {
+        "dateUtc": "2022-07-18T13:30:00.000Z",
+        "dateLocal": "2022-07-18T15:30:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T14:45:00.000Z",
+        "dateLocal": "2022-07-18T16:45:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T13:30:00.000Z",
+          "dateLocal": "2022-07-18T15:30:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T13:30:00.000Z",
+          "dateLocal": "2022-07-18T15:30:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T14:45:00.000Z",
+          "dateLocal": "2022-07-18T16:45:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T14:45:00.000Z",
+          "dateLocal": "2022-07-18T16:45:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 75
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "OYKBK"
+      }
+    },
+    {
+      "flightId": "EM1759-20220718-CPH-SPU",
+      "carrierFsCode": "EM",
+      "flightNumber": "1759",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "SPU",
+      "departureDate": {
+        "dateUtc": "2022-07-18T13:30:00.000Z",
+        "dateLocal": "2022-07-18T15:30:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T15:45:00.000Z",
+        "dateLocal": "2022-07-18T17:45:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T13:30:00.000Z",
+          "dateLocal": "2022-07-18T15:30:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T13:30:00.000Z",
+          "dateLocal": "2022-07-18T15:30:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T15:45:00.000Z",
+          "dateLocal": "2022-07-18T17:45:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T15:45:00.000Z",
+          "dateLocal": "2022-07-18T17:45:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 135
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "OYKAM"
+      }
+    },
+    {
+      "flightId": "EM0587-20220718-CPH-AGP",
+      "carrierFsCode": "EM",
+      "flightNumber": "587",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "AGP",
+      "departureDate": {
+        "dateUtc": "2022-07-18T13:30:00.000Z",
+        "dateLocal": "2022-07-18T15:30:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T17:20:00.000Z",
+        "dateLocal": "2022-07-18T19:20:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T13:30:00.000Z",
+          "dateLocal": "2022-07-18T15:30:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T13:30:00.000Z",
+          "dateLocal": "2022-07-18T15:30:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T17:20:00.000Z",
+          "dateLocal": "2022-07-18T19:20:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T17:20:00.000Z",
+          "dateLocal": "2022-07-18T19:20:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 230
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "SEDOY"
+      }
+    },
+    {
+      "flightId": "EM2673-20220718-CPH-TIV",
+      "carrierFsCode": "EM",
+      "flightNumber": "2673",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "TIV",
+      "departureDate": {
+        "dateUtc": "2022-07-18T13:35:00.000Z",
+        "dateLocal": "2022-07-18T15:35:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T16:15:00.000Z",
+        "dateLocal": "2022-07-18T18:15:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T13:35:00.000Z",
+          "dateLocal": "2022-07-18T15:35:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T13:35:00.000Z",
+          "dateLocal": "2022-07-18T15:35:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T16:15:00.000Z",
+          "dateLocal": "2022-07-18T18:15:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T16:15:00.000Z",
+          "dateLocal": "2022-07-18T18:15:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 160
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "SEROU"
+      }
+    },
+    {
+      "flightId": "EM0943-20220718-CPH-ORD",
+      "carrierFsCode": "EM",
+      "flightNumber": "943",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "ORD",
+      "departureDate": {
+        "dateUtc": "2022-07-18T13:40:00.000Z",
+        "dateLocal": "2022-07-18T15:40:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T22:45:00.000Z",
+        "dateLocal": "2022-07-18T17:45:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T13:40:00.000Z",
+          "dateLocal": "2022-07-18T15:40:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T13:40:00.000Z",
+          "dateLocal": "2022-07-18T15:40:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T22:45:00.000Z",
+          "dateLocal": "2022-07-18T17:45:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T22:45:00.000Z",
+          "dateLocal": "2022-07-18T17:45:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 545
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "330",
+        "actualEquipmentIataCode": "330",
+        "tailNumber": "LNRKR"
+      }
+    },
+    {
+      "flightId": "EM2517-20220718-CPH-BRI",
+      "carrierFsCode": "EM",
+      "flightNumber": "2517",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "BRI",
+      "departureDate": {
+        "dateUtc": "2022-07-18T13:40:00.000Z",
+        "dateLocal": "2022-07-18T15:40:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T16:25:00.000Z",
+        "dateLocal": "2022-07-18T18:25:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T13:40:00.000Z",
+          "dateLocal": "2022-07-18T15:40:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T13:40:00.000Z",
+          "dateLocal": "2022-07-18T15:40:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T16:25:00.000Z",
+          "dateLocal": "2022-07-18T18:25:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T16:25:00.000Z",
+          "dateLocal": "2022-07-18T18:25:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 165
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "OYKAL"
+      }
+    },
+    {
+      "flightId": "EM2821-20220718-CPH-GZP",
+      "carrierFsCode": "EM",
+      "flightNumber": "2821",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "GZP",
+      "departureDate": {
+        "dateUtc": "2022-07-18T13:45:00.000Z",
+        "dateLocal": "2022-07-18T15:45:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T17:35:00.000Z",
+        "dateLocal": "2022-07-18T20:35:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T13:45:00.000Z",
+          "dateLocal": "2022-07-18T15:45:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T13:45:00.000Z",
+          "dateLocal": "2022-07-18T15:45:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T17:35:00.000Z",
+          "dateLocal": "2022-07-18T20:35:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T17:35:00.000Z",
+          "dateLocal": "2022-07-18T20:35:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 230
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "SEROX"
+      }
+    },
+    {
+      "flightId": "EM2811-20220718-CPH-PMI",
+      "carrierFsCode": "EM",
+      "flightNumber": "2811",
+      "operatedBy": "EM Airlines",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "PMI",
+      "departureDate": {
+        "dateUtc": "2022-07-18T13:50:00.000Z",
+        "dateLocal": "2022-07-18T15:50:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T16:55:00.000Z",
+        "dateLocal": "2022-07-18T18:55:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T13:50:00.000Z",
+          "dateLocal": "2022-07-18T15:50:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T13:50:00.000Z",
+          "dateLocal": "2022-07-18T15:50:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T16:55:00.000Z",
+          "dateLocal": "2022-07-18T18:55:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T16:55:00.000Z",
+          "dateLocal": "2022-07-18T18:55:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 185
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "OYKAT"
+      }
+    },
+    {
+      "flightId": "EM2833-20220718-CPH-DBV",
+      "carrierFsCode": "EM",
+      "flightNumber": "2833",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "DBV",
+      "departureDate": {
+        "dateUtc": "2022-07-18T14:40:00.000Z",
+        "dateLocal": "2022-07-18T16:40:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T17:00:00.000Z",
+        "dateLocal": "2022-07-18T19:00:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T14:40:00.000Z",
+          "dateLocal": "2022-07-18T16:40:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T14:40:00.000Z",
+          "dateLocal": "2022-07-18T16:40:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T17:00:00.000Z",
+          "dateLocal": "2022-07-18T19:00:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T17:00:00.000Z",
+          "dateLocal": "2022-07-18T19:00:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 140
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIGEA"
+      }
+    },
+    {
+      "flightId": "EM1874-20220718-CPH-SVG",
+      "carrierFsCode": "EM",
+      "flightNumber": "1874",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "SVG",
+      "departureDate": {
+        "dateUtc": "2022-07-18T14:40:00.000Z",
+        "dateLocal": "2022-07-18T16:40:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T15:50:00.000Z",
+        "dateLocal": "2022-07-18T17:50:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T14:40:00.000Z",
+          "dateLocal": "2022-07-18T16:40:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T14:40:00.000Z",
+          "dateLocal": "2022-07-18T16:40:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T15:50:00.000Z",
+          "dateLocal": "2022-07-18T17:50:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T15:50:00.000Z",
+          "dateLocal": "2022-07-18T17:50:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 70
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPH"
+      }
+    },
+    {
+      "flightId": "EM1517-20220718-CPH-EMR",
+      "carrierFsCode": "EM",
+      "flightNumber": "1517",
+      "operatedBy": "EM Airlines",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "EMR",
+      "departureDate": {
+        "dateUtc": "2022-07-18T14:40:00.000Z",
+        "dateLocal": "2022-07-18T16:40:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T16:40:00.000Z",
+        "dateLocal": "2022-07-18T17:40:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T14:40:00.000Z",
+          "dateLocal": "2022-07-18T16:40:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T14:40:00.000Z",
+          "dateLocal": "2022-07-18T16:40:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T16:40:00.000Z",
+          "dateLocal": "2022-07-18T17:40:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T16:40:00.000Z",
+          "dateLocal": "2022-07-18T17:40:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 120
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "EISIE"
+      }
+    },
+    {
+      "flightId": "EM1217-20220718-CPH-AAL",
+      "carrierFsCode": "EM",
+      "flightNumber": "1217",
+      "operatedBy": "EMfly",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "AAL",
+      "departureDate": {
+        "dateUtc": "2022-07-18T15:00:00.000Z",
+        "dateLocal": "2022-07-18T17:00:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T15:55:00.000Z",
+        "dateLocal": "2022-07-18T17:55:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T15:00:00.000Z",
+          "dateLocal": "2022-07-18T17:00:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T15:00:00.000Z",
+          "dateLocal": "2022-07-18T17:00:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T15:55:00.000Z",
+          "dateLocal": "2022-07-18T17:55:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T15:55:00.000Z",
+          "dateLocal": "2022-07-18T17:55:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 55
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "ATR",
+        "actualEquipmentIataCode": "ATR",
+        "tailNumber": "ESATH"
+      }
+    },
+    {
+      "flightId": "EM1408-20220718-CPH-ARN",
+      "carrierFsCode": "EM",
+      "flightNumber": "1408",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "ARN",
+      "departureDate": {
+        "dateUtc": "2022-07-18T15:05:00.000Z",
+        "dateLocal": "2022-07-18T17:05:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T16:20:00.000Z",
+        "dateLocal": "2022-07-18T18:20:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T15:05:00.000Z",
+          "dateLocal": "2022-07-18T17:05:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T15:05:00.000Z",
+          "dateLocal": "2022-07-18T17:05:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T16:20:00.000Z",
+          "dateLocal": "2022-07-18T18:20:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T16:20:00.000Z",
+          "dateLocal": "2022-07-18T18:20:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 75
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPG"
+      }
+    },
+    {
+      "flightId": "EM0627-20220718-CPH-DUS",
+      "carrierFsCode": "EM",
+      "flightNumber": "627",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "DUS",
+      "departureDate": {
+        "dateUtc": "2022-07-18T15:10:00.000Z",
+        "dateLocal": "2022-07-18T17:10:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T16:30:00.000Z",
+        "dateLocal": "2022-07-18T18:30:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T15:10:00.000Z",
+          "dateLocal": "2022-07-18T17:10:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T15:10:00.000Z",
+          "dateLocal": "2022-07-18T17:10:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T16:30:00.000Z",
+          "dateLocal": "2022-07-18T18:30:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T16:30:00.000Z",
+          "dateLocal": "2022-07-18T18:30:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 80
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPT"
+      }
+    },
+    {
+      "flightId": "EM0687-20220718-CPH-MXP",
+      "carrierFsCode": "EM",
+      "flightNumber": "687",
+      "operatedBy": "EM Airlines",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "MXP",
+      "departureDate": {
+        "dateUtc": "2022-07-18T15:10:00.000Z",
+        "dateLocal": "2022-07-18T17:10:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T17:15:00.000Z",
+        "dateLocal": "2022-07-18T19:15:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T15:10:00.000Z",
+          "dateLocal": "2022-07-18T17:10:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T15:10:00.000Z",
+          "dateLocal": "2022-07-18T17:10:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T17:15:00.000Z",
+          "dateLocal": "2022-07-18T19:15:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T17:15:00.000Z",
+          "dateLocal": "2022-07-18T19:15:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 125
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "EISIF"
+      }
+    },
+    {
+      "flightId": "EM0757-20220718-CPH-GDN",
+      "carrierFsCode": "EM",
+      "flightNumber": "757",
+      "operatedBy": "EMfly",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "GDN",
+      "departureDate": {
+        "dateUtc": "2022-07-18T15:15:00.000Z",
+        "dateLocal": "2022-07-18T17:15:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T16:30:00.000Z",
+        "dateLocal": "2022-07-18T18:30:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T15:15:00.000Z",
+          "dateLocal": "2022-07-18T17:15:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T15:15:00.000Z",
+          "dateLocal": "2022-07-18T17:15:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T16:30:00.000Z",
+          "dateLocal": "2022-07-18T18:30:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T16:30:00.000Z",
+          "dateLocal": "2022-07-18T18:30:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 75
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "ATR",
+        "actualEquipmentIataCode": "ATR",
+        "tailNumber": "ESATJ"
+      }
+    },
+    {
+      "flightId": "EM2801-20220718-CPH-LIS",
+      "carrierFsCode": "EM",
+      "flightNumber": "2801",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "LIS",
+      "departureDate": {
+        "dateUtc": "2022-07-18T15:30:00.000Z",
+        "dateLocal": "2022-07-18T17:30:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T19:15:00.000Z",
+        "dateLocal": "2022-07-18T20:15:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T15:30:00.000Z",
+          "dateLocal": "2022-07-18T17:30:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T15:30:00.000Z",
+          "dateLocal": "2022-07-18T17:30:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T19:15:00.000Z",
+          "dateLocal": "2022-07-18T20:15:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T19:15:00.000Z",
+          "dateLocal": "2022-07-18T20:15:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 225
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "SEROG"
+      }
+    },
+    {
+      "flightId": "EM1259-20220718-CPH-AAR",
+      "carrierFsCode": "EM",
+      "flightNumber": "1259",
+      "operatedBy": "EMfly",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "AAR",
+      "departureDate": {
+        "dateUtc": "2022-07-18T15:40:00.000Z",
+        "dateLocal": "2022-07-18T17:40:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T16:20:00.000Z",
+        "dateLocal": "2022-07-18T18:20:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T15:40:00.000Z",
+          "dateLocal": "2022-07-18T17:40:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T15:40:00.000Z",
+          "dateLocal": "2022-07-18T17:40:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T16:20:00.000Z",
+          "dateLocal": "2022-07-18T18:20:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T16:20:00.000Z",
+          "dateLocal": "2022-07-18T18:20:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 40
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "ATR",
+        "actualEquipmentIataCode": "ATR",
+        "tailNumber": "ESATC"
+      }
+    },
+    {
+      "flightId": "EM0609-20220718-CPH-ZRH",
+      "carrierFsCode": "EM",
+      "flightNumber": "609",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "ZRH",
+      "departureDate": {
+        "dateUtc": "2022-07-18T16:00:00.000Z",
+        "dateLocal": "2022-07-18T18:00:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T17:45:00.000Z",
+        "dateLocal": "2022-07-18T19:45:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T16:00:00.000Z",
+          "dateLocal": "2022-07-18T18:00:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T16:00:00.000Z",
+          "dateLocal": "2022-07-18T18:00:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T17:45:00.000Z",
+          "dateLocal": "2022-07-18T19:45:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T17:45:00.000Z",
+          "dateLocal": "2022-07-18T19:45:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 105
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPX"
+      }
+    },
+    {
+      "flightId": "EM2587-20220718-CPH-PMI",
+      "carrierFsCode": "EM",
+      "flightNumber": "2587",
+      "operatedBy": "EM Airlines",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "PMI",
+      "departureDate": {
+        "dateUtc": "2022-07-18T16:05:00.000Z",
+        "dateLocal": "2022-07-18T18:05:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T19:10:00.000Z",
+        "dateLocal": "2022-07-18T21:10:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T16:05:00.000Z",
+          "dateLocal": "2022-07-18T18:05:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T16:05:00.000Z",
+          "dateLocal": "2022-07-18T18:05:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T19:10:00.000Z",
+          "dateLocal": "2022-07-18T21:10:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T19:10:00.000Z",
+          "dateLocal": "2022-07-18T21:10:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 185
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "EISIN"
+      }
+    },
+    {
+      "flightId": "EM2537-20220718-CPH-DUB",
+      "carrierFsCode": "EM",
+      "flightNumber": "2537",
+      "operatedBy": "EM Link",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "DUB",
+      "departureDate": {
+        "dateUtc": "2022-07-18T16:10:00.000Z",
+        "dateLocal": "2022-07-18T18:10:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T18:30:00.000Z",
+        "dateLocal": "2022-07-18T19:30:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T16:10:00.000Z",
+          "dateLocal": "2022-07-18T18:10:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T16:10:00.000Z",
+          "dateLocal": "2022-07-18T18:10:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T18:30:00.000Z",
+          "dateLocal": "2022-07-18T19:30:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T18:30:00.000Z",
+          "dateLocal": "2022-07-18T19:30:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 140
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "EMJ",
+        "actualEquipmentIataCode": "EMJ",
+        "tailNumber": "SERSO"
+      }
+    },
+    {
+      "flightId": "EM0553-20220718-CPH-AMS",
+      "carrierFsCode": "EM",
+      "flightNumber": "553",
+      "operatedBy": "EM Link",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "AMS",
+      "departureDate": {
+        "dateUtc": "2022-07-18T16:10:00.000Z",
+        "dateLocal": "2022-07-18T18:10:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T17:35:00.000Z",
+        "dateLocal": "2022-07-18T19:35:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T16:10:00.000Z",
+          "dateLocal": "2022-07-18T18:10:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T16:10:00.000Z",
+          "dateLocal": "2022-07-18T18:10:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T17:35:00.000Z",
+          "dateLocal": "2022-07-18T19:35:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T17:35:00.000Z",
+          "dateLocal": "2022-07-18T19:35:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 85
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "EMJ",
+        "actualEquipmentIataCode": "EMJ",
+        "tailNumber": "SEREM"
+      }
+    },
+    {
+      "flightId": "EM1635-20220718-CPH-FRA",
+      "carrierFsCode": "EM",
+      "flightNumber": "1635",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "FRA",
+      "departureDate": {
+        "dateUtc": "2022-07-18T16:15:00.000Z",
+        "dateLocal": "2022-07-18T18:15:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T17:45:00.000Z",
+        "dateLocal": "2022-07-18T19:45:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T16:15:00.000Z",
+          "dateLocal": "2022-07-18T18:15:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T16:15:00.000Z",
+          "dateLocal": "2022-07-18T18:15:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T17:45:00.000Z",
+          "dateLocal": "2022-07-18T19:45:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T17:45:00.000Z",
+          "dateLocal": "2022-07-18T19:45:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 90
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIGEC"
+      }
+    },
+    {
+      "flightId": "EM2777-20220718-CPH-ATH",
+      "carrierFsCode": "EM",
+      "flightNumber": "2777",
+      "operatedBy": "EM Airlines",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "ATH",
+      "departureDate": {
+        "dateUtc": "2022-07-18T16:30:00.000Z",
+        "dateLocal": "2022-07-18T18:30:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T19:45:00.000Z",
+        "dateLocal": "2022-07-18T22:45:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T16:30:00.000Z",
+          "dateLocal": "2022-07-18T18:30:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T16:30:00.000Z",
+          "dateLocal": "2022-07-18T18:30:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T19:45:00.000Z",
+          "dateLocal": "2022-07-18T22:45:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T19:45:00.000Z",
+          "dateLocal": "2022-07-18T22:45:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 195
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "X01"
+      }
+    },
+    {
+      "flightId": "EM1507-20220718-CPH-EMR",
+      "carrierFsCode": "EM",
+      "flightNumber": "1507",
+      "operatedBy": "EM Airlines",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "EMR",
+      "departureDate": {
+        "dateUtc": "2022-07-18T16:30:00.000Z",
+        "dateLocal": "2022-07-18T18:30:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T18:30:00.000Z",
+        "dateLocal": "2022-07-18T19:30:00.000"
+      },
+      "status": "C",
+      "statusDescription": "CANCELLED",
+      "statusInfo": {
+        "status": "Cancelled",
+        "indicator": "red",
+        "displayStatus": "Cancelled",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T16:30:00.000Z",
+          "dateLocal": "2022-07-18T18:30:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T16:30:00.000Z",
+          "dateLocal": "2022-07-18T18:30:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T18:30:00.000Z",
+          "dateLocal": "2022-07-18T19:30:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T18:30:00.000Z",
+          "dateLocal": "2022-07-18T19:30:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 120
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "---"
+      }
+    },
+    {
+      "flightId": "EM0559-20220718-CPH-CDG",
+      "carrierFsCode": "EM",
+      "flightNumber": "559",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "CDG",
+      "departureDate": {
+        "dateUtc": "2022-07-18T17:00:00.000Z",
+        "dateLocal": "2022-07-18T19:00:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T18:55:00.000Z",
+        "dateLocal": "2022-07-18T20:55:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T17:00:00.000Z",
+          "dateLocal": "2022-07-18T19:00:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T17:00:00.000Z",
+          "dateLocal": "2022-07-18T19:00:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T18:55:00.000Z",
+          "dateLocal": "2022-07-18T20:55:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T18:55:00.000Z",
+          "dateLocal": "2022-07-18T20:55:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 115
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPS"
+      }
+    },
+    {
+      "flightId": "EM1470-20220718-CPH-OSL",
+      "carrierFsCode": "EM",
+      "flightNumber": "1470",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "OSL",
+      "departureDate": {
+        "dateUtc": "2022-07-18T17:05:00.000Z",
+        "dateLocal": "2022-07-18T19:05:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T18:15:00.000Z",
+        "dateLocal": "2022-07-18T20:15:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T17:05:00.000Z",
+          "dateLocal": "2022-07-18T19:05:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T17:05:00.000Z",
+          "dateLocal": "2022-07-18T19:05:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T18:15:00.000Z",
+          "dateLocal": "2022-07-18T20:15:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T18:15:00.000Z",
+          "dateLocal": "2022-07-18T20:15:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 70
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "OYKBB"
+      }
+    },
+    {
+      "flightId": "EM1430-20220718-CPH-ARN",
+      "carrierFsCode": "EM",
+      "flightNumber": "1430",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "ARN",
+      "departureDate": {
+        "dateUtc": "2022-07-18T17:15:00.000Z",
+        "dateLocal": "2022-07-18T19:15:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T18:30:00.000Z",
+        "dateLocal": "2022-07-18T20:30:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T17:15:00.000Z",
+          "dateLocal": "2022-07-18T19:15:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T17:15:00.000Z",
+          "dateLocal": "2022-07-18T19:15:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T18:30:00.000Z",
+          "dateLocal": "2022-07-18T20:30:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T18:30:00.000Z",
+          "dateLocal": "2022-07-18T20:30:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 75
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "OYKBK"
+      }
+    },
+    {
+      "flightId": "EM2795-20220718-CPH-NCE",
+      "carrierFsCode": "EM",
+      "flightNumber": "2795",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "NCE",
+      "departureDate": {
+        "dateUtc": "2022-07-18T17:25:00.000Z",
+        "dateLocal": "2022-07-18T19:25:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T19:50:00.000Z",
+        "dateLocal": "2022-07-18T21:50:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T17:25:00.000Z",
+          "dateLocal": "2022-07-18T19:25:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T17:25:00.000Z",
+          "dateLocal": "2022-07-18T19:25:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T19:50:00.000Z",
+          "dateLocal": "2022-07-18T21:50:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T19:50:00.000Z",
+          "dateLocal": "2022-07-18T21:50:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 145
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPN"
+      }
+    },
+    {
+      "flightId": "EM2683-20220718-CPH-BLQ",
+      "carrierFsCode": "EM",
+      "flightNumber": "2683",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "BLQ",
+      "departureDate": {
+        "dateUtc": "2022-07-18T17:40:00.000Z",
+        "dateLocal": "2022-07-18T19:40:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T19:45:00.000Z",
+        "dateLocal": "2022-07-18T21:45:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T17:40:00.000Z",
+          "dateLocal": "2022-07-18T19:40:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T17:40:00.000Z",
+          "dateLocal": "2022-07-18T19:40:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T19:45:00.000Z",
+          "dateLocal": "2022-07-18T21:45:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T19:45:00.000Z",
+          "dateLocal": "2022-07-18T21:45:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 125
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPW"
+      }
+    },
+    {
+      "flightId": "EM1444-20220718-CPH-GOT",
+      "carrierFsCode": "EM",
+      "flightNumber": "1444",
+      "operatedBy": "EMfly",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "GOT",
+      "departureDate": {
+        "dateUtc": "2022-07-18T17:45:00.000Z",
+        "dateLocal": "2022-07-18T19:45:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T18:40:00.000Z",
+        "dateLocal": "2022-07-18T20:40:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T17:45:00.000Z",
+          "dateLocal": "2022-07-18T19:45:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T17:45:00.000Z",
+          "dateLocal": "2022-07-18T19:45:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T18:40:00.000Z",
+          "dateLocal": "2022-07-18T20:40:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T18:40:00.000Z",
+          "dateLocal": "2022-07-18T20:40:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 55
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "ATR",
+        "actualEquipmentIataCode": "ATR",
+        "tailNumber": "ESATH"
+      }
+    },
+    {
+      "flightId": "EM1219-20220718-CPH-AAL",
+      "carrierFsCode": "EM",
+      "flightNumber": "1219",
+      "operatedBy": "EMfly",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "AAL",
+      "departureDate": {
+        "dateUtc": "2022-07-18T18:00:00.000Z",
+        "dateLocal": "2022-07-18T20:00:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T18:55:00.000Z",
+        "dateLocal": "2022-07-18T20:55:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T18:00:00.000Z",
+          "dateLocal": "2022-07-18T20:00:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T18:00:00.000Z",
+          "dateLocal": "2022-07-18T20:00:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T18:55:00.000Z",
+          "dateLocal": "2022-07-18T20:55:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T18:55:00.000Z",
+          "dateLocal": "2022-07-18T20:55:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 55
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "ATR",
+        "actualEquipmentIataCode": "ATR",
+        "tailNumber": "ESATC"
+      }
+    },
+    {
+      "flightId": "EM1677-20220718-CPH-BER",
+      "carrierFsCode": "EM",
+      "flightNumber": "1677",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "BER",
+      "departureDate": {
+        "dateUtc": "2022-07-18T18:10:00.000Z",
+        "dateLocal": "2022-07-18T20:10:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T19:05:00.000Z",
+        "dateLocal": "2022-07-18T21:05:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T18:10:00.000Z",
+          "dateLocal": "2022-07-18T20:10:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T18:10:00.000Z",
+          "dateLocal": "2022-07-18T20:10:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T19:05:00.000Z",
+          "dateLocal": "2022-07-18T21:05:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T19:05:00.000Z",
+          "dateLocal": "2022-07-18T21:05:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 55
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPH"
+      }
+    },
+    {
+      "flightId": "EM1501-20220718-CPH-EMR",
+      "carrierFsCode": "EM",
+      "flightNumber": "1501",
+      "operatedBy": "EM Airlines",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "EMR",
+      "departureDate": {
+        "dateUtc": "2022-07-18T18:35:00.000Z",
+        "dateLocal": "2022-07-18T20:35:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T20:35:00.000Z",
+        "dateLocal": "2022-07-18T21:35:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T18:35:00.000Z",
+          "dateLocal": "2022-07-18T20:35:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T18:35:00.000Z",
+          "dateLocal": "2022-07-18T20:35:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T20:35:00.000Z",
+          "dateLocal": "2022-07-18T21:35:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T20:35:00.000Z",
+          "dateLocal": "2022-07-18T21:35:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 120
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "EISIG"
+      }
+    },
+    {
+      "flightId": "EM1876-20220718-CPH-SVG",
+      "carrierFsCode": "EM",
+      "flightNumber": "1876",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "SVG",
+      "departureDate": {
+        "dateUtc": "2022-07-18T18:55:00.000Z",
+        "dateLocal": "2022-07-18T20:55:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T20:05:00.000Z",
+        "dateLocal": "2022-07-18T22:05:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T18:55:00.000Z",
+          "dateLocal": "2022-07-18T20:55:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T18:55:00.000Z",
+          "dateLocal": "2022-07-18T20:55:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T20:05:00.000Z",
+          "dateLocal": "2022-07-18T22:05:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T20:05:00.000Z",
+          "dateLocal": "2022-07-18T22:05:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 70
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPT"
+      }
+    },
+    {
+      "flightId": "EM2874-20220718-CPH-BGO",
+      "carrierFsCode": "EM",
+      "flightNumber": "2874",
+      "operatedBy": "EM Link",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "BGO",
+      "departureDate": {
+        "dateUtc": "2022-07-18T20:55:00.000Z",
+        "dateLocal": "2022-07-18T22:55:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T22:15:00.000Z",
+        "dateLocal": "2022-07-19T00:15:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T20:55:00.000Z",
+          "dateLocal": "2022-07-18T22:55:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T20:55:00.000Z",
+          "dateLocal": "2022-07-18T22:55:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T22:15:00.000Z",
+          "dateLocal": "2022-07-19T00:15:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T22:15:00.000Z",
+          "dateLocal": "2022-07-19T00:15:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 80
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "EMJ",
+        "actualEquipmentIataCode": "EMJ",
+        "tailNumber": "SEREM"
+      }
+    },
+    {
+      "flightId": "EM2888-20220718-CPH-TRD",
+      "carrierFsCode": "EM",
+      "flightNumber": "2888",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "TRD",
+      "departureDate": {
+        "dateUtc": "2022-07-18T20:55:00.000Z",
+        "dateLocal": "2022-07-18T22:55:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T22:30:00.000Z",
+        "dateLocal": "2022-07-19T00:30:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T20:55:00.000Z",
+          "dateLocal": "2022-07-18T22:55:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T20:55:00.000Z",
+          "dateLocal": "2022-07-18T22:55:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T22:30:00.000Z",
+          "dateLocal": "2022-07-19T00:30:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T22:30:00.000Z",
+          "dateLocal": "2022-07-19T00:30:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 95
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIGEA"
+      }
+    },
+    {
+      "flightId": "EM1273-20220718-CPH-AAR",
+      "carrierFsCode": "EM",
+      "flightNumber": "1273",
+      "operatedBy": "EMfly",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "AAR",
+      "departureDate": {
+        "dateUtc": "2022-07-18T20:55:00.000Z",
+        "dateLocal": "2022-07-18T22:55:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T21:35:00.000Z",
+        "dateLocal": "2022-07-18T23:35:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T20:55:00.000Z",
+          "dateLocal": "2022-07-18T22:55:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T20:55:00.000Z",
+          "dateLocal": "2022-07-18T22:55:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T21:35:00.000Z",
+          "dateLocal": "2022-07-18T23:35:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T21:35:00.000Z",
+          "dateLocal": "2022-07-18T23:35:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 40
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "ATR",
+        "actualEquipmentIataCode": "ATR",
+        "tailNumber": "ESATH"
+      }
+    },
+    {
+      "flightId": "EM1225-20220718-CPH-AAL",
+      "carrierFsCode": "EM",
+      "flightNumber": "1225",
+      "operatedBy": "EMfly",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "AAL",
+      "departureDate": {
+        "dateUtc": "2022-07-18T21:00:00.000Z",
+        "dateLocal": "2022-07-18T23:00:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T21:55:00.000Z",
+        "dateLocal": "2022-07-18T23:55:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T21:00:00.000Z",
+          "dateLocal": "2022-07-18T23:00:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T21:00:00.000Z",
+          "dateLocal": "2022-07-18T23:00:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T21:55:00.000Z",
+          "dateLocal": "2022-07-18T23:55:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T21:55:00.000Z",
+          "dateLocal": "2022-07-18T23:55:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 55
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "ATR",
+        "actualEquipmentIataCode": "ATR",
+        "tailNumber": "ESATC"
+      }
+    },
+    {
+      "flightId": "EM1428-20220718-CPH-ARN",
+      "carrierFsCode": "EM",
+      "flightNumber": "1428",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "ARN",
+      "departureDate": {
+        "dateUtc": "2022-07-18T21:00:00.000Z",
+        "dateLocal": "2022-07-18T23:00:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T22:10:00.000Z",
+        "dateLocal": "2022-07-19T00:10:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T21:00:00.000Z",
+          "dateLocal": "2022-07-18T23:00:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T21:00:00.000Z",
+          "dateLocal": "2022-07-18T23:00:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T22:10:00.000Z",
+          "dateLocal": "2022-07-19T00:10:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T22:10:00.000Z",
+          "dateLocal": "2022-07-19T00:10:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 70
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "OYKBK"
+      }
+    },
+    {
+      "flightId": "EM1474-20220718-CPH-OSL",
+      "carrierFsCode": "EM",
+      "flightNumber": "1474",
+      "operatedBy": "EM",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "OSL",
+      "departureDate": {
+        "dateUtc": "2022-07-18T21:00:00.000Z",
+        "dateLocal": "2022-07-18T23:00:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T22:10:00.000Z",
+        "dateLocal": "2022-07-19T00:10:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "affected",
+        "indicator": "#FF8273",
+        "displayStatus": "Likely to be canceled if strike occurs",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T21:00:00.000Z",
+          "dateLocal": "2022-07-18T23:00:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T21:00:00.000Z",
+          "dateLocal": "2022-07-18T23:00:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T22:10:00.000Z",
+          "dateLocal": "2022-07-19T00:10:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T22:10:00.000Z",
+          "dateLocal": "2022-07-19T00:10:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 70
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "32S",
+        "actualEquipmentIataCode": "32S",
+        "tailNumber": "OYKBB"
+      }
+    },
+    {
+      "flightId": "EM0753-20220718-CPH-GDN",
+      "carrierFsCode": "EM",
+      "flightNumber": "753",
+      "operatedBy": "EMjet",
+      "codeShares": [],
+      "departureAirportFsCode": "CPH",
+      "arrivalAirportFsCode": "GDN",
+      "departureDate": {
+        "dateUtc": "2022-07-18T21:00:00.000Z",
+        "dateLocal": "2022-07-18T23:00:00.000"
+      },
+      "arrivalDate": {
+        "dateUtc": "2022-07-18T21:55:00.000Z",
+        "dateLocal": "2022-07-18T23:55:00.000"
+      },
+      "status": "S",
+      "statusDescription": "ON-TIME",
+      "statusInfo": {
+        "status": "SCHEDULED",
+        "indicator": "#000099",
+        "displayStatus": "SCHEDULED",
+        "displayTime": null
+      },
+      "operationalTimes": {
+        "publishedDeparture": {
+          "dateUtc": "2022-07-18T21:00:00.000Z",
+          "dateLocal": "2022-07-18T23:00:00.000"
+        },
+        "scheduledGateDeparture": {
+          "dateUtc": "2022-07-18T21:00:00.000Z",
+          "dateLocal": "2022-07-18T23:00:00.000"
+        },
+        "publishedArrival": {
+          "dateUtc": "2022-07-18T21:55:00.000Z",
+          "dateLocal": "2022-07-18T23:55:00.000"
+        },
+        "scheduledGateArrival": {
+          "dateUtc": "2022-07-18T21:55:00.000Z",
+          "dateLocal": "2022-07-18T23:55:00.000"
+        }
+      },
+      "delays": {},
+      "flightDurations": {
+        "scheduledBlockMinutes": 55
+      },
+      "airportResources": {},
+      "flightEquipment": {
+        "scheduledEquipmentIataCode": "CRJ",
+        "actualEquipmentIataCode": "CRJ",
+        "tailNumber": "EIFPX"
+      }
+    }
+  ]
+}
